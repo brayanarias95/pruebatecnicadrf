@@ -1,5 +1,5 @@
 from django.contrib import admin
-from models import tabla
+from app.models import tabla
 # Register your models here.
 @admin.register(tabla)
 class tablaAdmin(admin.ModelAdmin):
